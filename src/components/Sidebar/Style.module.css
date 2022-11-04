@@ -6,14 +6,14 @@
 }
 
 .sidebar__link__wrapper {
-    width: 100%;
-    max-width: 263px;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    padding: 30px 0 30px 30px;
-    border-radius: 0 20px 0 0;
-    background-color: var(--main-color-blue);
+  width: 100%;
+  max-width: 263px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0 30px 30px;
+  border-radius: 0 20px 0 0;
+  background-color: var(--main-color-blue);
 }
 
 .sidebar__link {
@@ -27,7 +27,6 @@
   color: var(--main-color-white);
 }
 
-
 .icon {
   margin-right: 10px;
   color: var(--main-color-white);
@@ -39,15 +38,14 @@
 }
 
 .sidebar__link__active > .icon {
-    color: var(--main-color-blue);
+  color: var(--main-color-blue);
 }
 
-
 .pages__container {
-    width: 75%;
-    height: 93%;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 10px;
-    background-color: var(--main-color-gray);
+  width: 75%;
+  height: 93%;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: var(--main-color-gray);
 }

@@ -1,4 +1,45 @@
 .card__container {
-    width: 192px;
-    height: 256px;
+    border-radius: 10px;
+    background-color: var(--main-color-white);
+    padding: 10px;
+}
+
+.image__container {
+    width: 100%;
+    height: 168px;
+    padding: 10px;
+    margin: 10px 0;
+    position: relative;
+    border-radius: 10px;
+    background-color: var(--main-color-gray);
+}
+
+.labels__container {
+    position: absolute;
+}
+
+.image__container > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product__title, .btn__container {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.btn__container {
+    display: flex;
+    align-items: center;
+}
+
+.price__divided {
+    color: var(--main-color-text);
+    margin-left: 10px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
 }

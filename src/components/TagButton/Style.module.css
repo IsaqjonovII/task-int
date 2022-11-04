@@ -3,6 +3,7 @@
   height: 20px;
   border-radius: 2px;
   display: flex;
+  margin-right: 10px;
   align-items: center;
   justify-content: center;
   color: var(--main-color-white);
