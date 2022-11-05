@@ -26,14 +26,5 @@ export const PRODUCTS__DATA = [
     price: 999,
     dividedpayment: 333,
     label: [<ChangeIcon />],
-  },
-  {
-    id: 3,
-    title: "Samsung Galaxy Z flip",
-    image:
-      "https://images.samsung.com/uk/smartphones/galaxy-z-flip3-5g/buy/02_Carousel/03-BasicColor/zflip3_carousel_foldunfoldcombo_lavender_mo.jpg",
-    price: 999,
-    dividedpayment: 333,
-    label: [<GiftIcon />],
-  },
+  }
 ];
