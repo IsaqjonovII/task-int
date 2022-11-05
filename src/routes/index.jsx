@@ -35,7 +35,7 @@ export const routes = [
     {
         path: "/starred",
         component: <LikedProducts />,
-        key: "home",
+        key: "liked",
     },
 ];
 
