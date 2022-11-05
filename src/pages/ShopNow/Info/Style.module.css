@@ -46,6 +46,34 @@
 .product__details__container {
   width: 100%;
   max-width: 500px;
+  padding: 0 15px;
+}
+
+.cart__icon__container:hover {
+  max-width: 160px;
+  width: 100%;
+  border-radius: 30px;
+  padding: 20px;
+}
+
+.cart__icon__container:hover h3 {
+  width: 100%;
+  display: block;
+  margin-left: 10px;
+}
+
+.cart__icon__container:hover .items__count {
+  width: 22px;
+  height: 22px;
+  background-color: var(--main-color-green);
+  position: absolute;
+  top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 15px;
+  border-radius: 50%;
+  color: var(--main-color-white);
 }
 
 .cart__icon__container {
@@ -63,6 +91,10 @@
   background-color: var(--main-color-pink);
 }
 
+.cart__icon__container > .items__count, .cart__icon__container > h3 {
+  display: none;
+}
+
 .flex {
   display: flex;
   align-items: center;
@@ -70,8 +102,8 @@
 }
 
 .divider {
-  padding: 10px;
-  margin: 15px;
+  margin: 15px 0;
+  padding-bottom: 10px;
   border-bottom: 1px solid var(--main-color-gray);
 }
 
@@ -84,7 +116,7 @@
   border-radius: 5px;
 }
 
-.plan__container > button {
+.btn {
   height: 100%;
   cursor: pointer;
   color: var(--main-color-green);
@@ -93,13 +125,86 @@
 }
 
 .btn__active {
-    color: var(--main-color-white);
-    background-color: var(--main-color-green);
+  color: var(--main-color-white);
+  background-color: var(--main-color-green);
+  border: none;
 }
 
 .plan__container > button:first-child {
-    border-radius: 5px 0 0 5px;
+  border-radius: 5px 0 0 5px;
 }
 .plan__container > button:last-child {
-    border-radius: 0 5px 5px 0;
+  border-radius: 0 5px 5px 0;
 }
+
+.markup {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.product__characteristic {
+  list-style-type: none;
+  font-size: 16px;
+}
+
+.show__all {
+  width: 100%;
+  height: 35px;
+  font-size: 16px;
+  color: var(--main-color-green);
+}
+
+.discounts__title {
+  margin: 20px 0;
+  color: var(--main-color-green);
+}
+
+.discounts__wrapper {
+  margin: 10px 0;
+  padding: 0 10px;
+}
+
+.discounts__wrapper > div {
+  text-align: left;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.discounts__wrapper input {
+  position: relative;
+  width: 1.5em;
+  height: 1.5em;
+  color: var(--main-color-white);
+  border: 1px solid var(--main-color-green);
+  border-radius: 4px;
+  appearance: none;
+  outline: 0;
+  cursor: pointer;
+  transition: background 175ms cubic-bezier(0.1, 0.1, 0.25, 1);
+}
+
+.discounts__wrapper input:checked {
+  color: var(--main-color-white);
+    border-color: var(--main-color-green);
+    background: var(--main-color-green);
+}
+
+.add__to__cart {
+  width: 100%;
+  height: 50px;
+  margin: auto;
+  border-radius: 20px;
+  transform: scale(1);
+  font-size: 18px;
+  transition: 250ms ease;
+  color: var(--main-color-white);
+  border: 1px solid var(--main-color-green);
+  background-color: var(--main-color-green);
+}
+
+.add__to__cart:active {
+  transform: scale(0.9);
+}
+
+
+
